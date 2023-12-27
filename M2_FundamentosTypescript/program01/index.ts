@@ -43,4 +43,5 @@ let inf = "Teste";
 
 // 5 - Para gerar um arquivo de configuracao do TS basta digitar "tsc --init" no terminal
 
+// 6 - Para o TS ficar em hot reload precisa digitar "tsc -W" no terminal
 
