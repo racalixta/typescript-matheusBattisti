@@ -6,7 +6,7 @@
 
 ## Módulos
 
-[] - Módulo 01 - Introdução
+[x] - Módulo 01 - Introdução
 [] - Módulo 02 - Fundamentos do Typescript
 [] - Módulo 03 - Avanços em Tipos
 [] - Módulo 04 - Narrowing (verificação de tipos e dados)
