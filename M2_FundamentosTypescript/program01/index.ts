@@ -35,7 +35,12 @@ console.log(typeof a);
 // 4 - Inference e Annotation
 
 const ann: string = "Teste";
-let inf = "Teste";
-
 // ann = 1; // dará erro, pois o TS entende que é uma string
+let inf = "Teste";
 // inf = 1; // dará erro, pois o TS entende que é uma string
+
+
+
+// 5 - Para gerar um arquivo de configuracao do TS basta digitar "tsc --init" no terminal
+
+
