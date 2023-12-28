@@ -44,3 +44,31 @@ function greeting(name: string): string {
 
 console.log(greeting("Ana"));
 // console.log(greeting(132)); // dará erro pois o TS entende que é number
+
+
+
+// 6 - funcao anonima
+
+setTimeout(function() {
+  const sallary: number = 1000;
+
+  // console.log(parseFloat(sallary)); // não permite pois o param tem q ser string
+
+  // console.log(sallary);
+
+}, 2000);
+
+
+// 7 - Tipos de objeto
+
+function passCoordinates(coord: {x: number, y: number}) {
+  console.log("X coord: " + coord.x);
+  console.log("Y coord: " + coord.y);
+}
+
+const objCoord = {x: 329, y: 84.2};
+passCoordinates(objCoord);
+
+const pessoaObj: {name: string, lastName: string} = {name: "John", lastName: "Dude"};
+
+
