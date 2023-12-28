@@ -72,3 +72,42 @@ passCoordinates(objCoord);
 const pessoaObj: {name: string, lastName: string} = {name: "John", lastName: "Dude"};
 
 
+// 8 - props opcionais
+
+// ao colocar "?" depois do 'c' ele se torna opcional, mas precisa de uma validação
+function showNumbers(a: number, b: number, c?: number) {
+  console.log("A: ", + a);
+  console.log("B: ", + b);
+
+  // não é a melhor maneira de se fazer a validação
+  if(c) {
+    console.log("C: ", + c);
+  }
+
+}
+showNumbers(1, 4, 7);
+showNumbers(3, 2);
+
+// 9 - Validando argumento opcional (jeito certo de fazer a validação)
+
+function advancedGreeting(firstName: string, lastName?: string) {
+
+  if(lastName !== undefined) {
+    return `Olá ${firstName} ${lastName}, tudo bem?`;
+  }
+
+  return `Olá ${firstName}, tudo bem?`;  
+}
+
+console.log(advancedGreeting("John", "Dude"));
+console.log(advancedGreeting("Mikal"));
+
+
+
+
+
+
+
+
+
+
